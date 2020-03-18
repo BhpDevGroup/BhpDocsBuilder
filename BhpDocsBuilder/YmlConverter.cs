@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace BhppDocsBuilder
+namespace BhpDocsBuilder
 {
     public static class YmlConverter
     {

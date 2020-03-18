@@ -1,4 +1,4 @@
-﻿namespace BhppDocsBuilder
+﻿namespace BhpDocsBuilder
 {
     public class Link
     {

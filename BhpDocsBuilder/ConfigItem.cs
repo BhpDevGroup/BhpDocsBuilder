@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using System.IO;
 
-namespace BhppDocsBuilder
+namespace BhpDocsBuilder
 {
     public class ConfigItem
     {

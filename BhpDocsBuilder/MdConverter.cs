@@ -9,7 +9,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using static System.Web.HttpUtility;
 
-namespace BhppDocsBuilder
+namespace BhpDocsBuilder
 {
     public static class MdConverter
     {

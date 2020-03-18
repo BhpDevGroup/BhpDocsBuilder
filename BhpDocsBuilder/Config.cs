@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace BhppDocsBuilder
+namespace BhpDocsBuilder
 {
     public static class Config
     {

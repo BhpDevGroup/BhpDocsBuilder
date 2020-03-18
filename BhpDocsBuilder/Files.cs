@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace BhppDocsBuilder
+namespace BhpDocsBuilder
 {
     public static class Files
     {
