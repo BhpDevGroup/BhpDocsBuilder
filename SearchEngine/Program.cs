@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace SearchEngine
@@ -14,6 +15,10 @@ namespace SearchEngine
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //by bhp
+                    IConfigurationSection section = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("ApplicationUrl");
+                    webBuilder.UseUrls(section.Value);
+
                     webBuilder.UseStartup<Startup>();
                 });
     }
