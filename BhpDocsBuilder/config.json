@@ -3,9 +3,9 @@
     {
       "origin": "docs\\zh-cn",
       "template": "template",
-      "destination": "wwwroot\\docs\\zh-cn",
+      "destination": "devdocs\\docs\\zh-cn",
       "catalog": "docs\\zh-cn\\toc.yml",
-      "webRoot": "wwwroot",
+      "webRoot": "devdocs",
       "git": "https://github.com/BhpAlpha/docs/blob/master/docs/zh-cn/"
     }
   ]
