@@ -60,7 +60,7 @@ namespace SearchEngine
 
         public void LoadFiles(string path)
         {
-            if (!Directory.Exists(path) || path.Contains("bin") || path.Contains("obj") || path.Contains("wwwroot")) return;
+            if (!Directory.Exists(path) || path.Contains("bin") || path.Contains("obj") || path.Contains("devdocs")) return;
             Directory.GetFiles(path).ToList().ForEach(p =>
             {
                 if (Path.GetExtension(p) == ".md")
